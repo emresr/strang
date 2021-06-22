@@ -1,6 +1,6 @@
 {
   "name": "strang",
-  "version": "0.1.5",
+  "version": "0.1.51",
   "description": "A lightweight library for  type conversion.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -24,7 +24,12 @@
   "homepage": "https://github.com/emresr/strang",
   "keywords": [
     "string",
-    "convert"
+    "convert",
+    "morse",
+    "number",
+    "char",
+    "conversion",
+    "type"
   ],
   "author": "Emre Surbahan emresurbahan@yahoo.com",
   "license": "MIT",

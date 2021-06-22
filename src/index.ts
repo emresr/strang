@@ -1,11 +1,11 @@
-import { numberToWords } from "./number";
-import { charToWords } from "./char";
-import { spell, morse, withNumbers } from "./string";
+import { number } from './number';
+import { charToWords } from './char';
+import { spell, morse, withNumbers } from './string';
 
-console.log(withNumbers("gf"));
+console.log(morse('LMAO'));
 
 module.exports = {
   spell,
   morse,
-  numberToWords,
+  number,
 };

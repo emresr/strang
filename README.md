@@ -1,12 +1,56 @@
-## Strang
+![Logo](https://user-images.githubusercontent.com/24278628/123002003-0cf9b000-d3ba-11eb-8ed5-684e3c7bd0be.png)
 
-A lightweight library for type conversion.
+![npm](https://img.shields.io/npm/v/strang)
 
-## Overview
+![NPM](https://img.shields.io/npm/l/strang)
+
+![npm bundle size](https://img.shields.io/bundlephobia/min/strang)
+
+#### A lightweight library for type conversion.
+
+#### [Documentation](https://linktodocumentation)
 
 ## Usage
 
+Install using npm or yarn:
+
+```
+npm install strang
+# or
+yarn add strang
+```
+
+Now you can start:
+
+```
+import { spell } from 'strang';
+
+const spelled = spell("text")
+```
+
+| Function       | Description          |
+| :------------- | :------------------- |
+| **`spell()`**  | String to spell      |
+| **`morse()`**  | String to morse code |
+| **`number()`** | Number to numeral    |
+
+```
+  spell("LMAO") = "Lima Mike Alpha Oscar"
+```
+
+```
+  morse("LMAO") = "._.. __ ._ ___"
+```
+
+```
+  number(1234) = "One Thousand Two Hundred Thirty Four"
+```
+
 ## Contribution
+
+- Clone and edit the source as you wish.
+- Please do not forget to add tests.
+- Write a descriptive PR.
 
 ## License
 

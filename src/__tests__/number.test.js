@@ -1,7 +1,7 @@
-var { numberToWords } = require("../number");
+var { number } = require('../number');
 
-describe("Number to words works correctly.", () => {
-  test("should return One Hundred Twenty Three for numberToWords(123)", () => {
-    expect(numberToWords(123)).toBe("One Hundred Twenty Three");
+describe('Number to numerals works correctly.', () => {
+  test('should return One Hundred Twenty Three for number(123)', () => {
+    expect(number(123)).toBe('One Hundred Twenty Three');
   });
 });
