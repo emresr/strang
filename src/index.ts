@@ -1,7 +1,11 @@
-var { numberToWords } = require("./number");
-var { charToWords } = require("./char");
-var { spell, morse, withNumbers } = require("./string");
+import { numberToWords } from "./number";
+import { charToWords } from "./char";
+import { spell, morse, withNumbers } from "./string";
+
+console.log(withNumbers("gf"));
 
 module.exports = {
-   spell,
+  spell,
+  morse,
+  numberToWords,
 };

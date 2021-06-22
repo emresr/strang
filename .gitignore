@@ -3,3 +3,6 @@ src/demorse.ts
 src/withNumbers.ts
 
 /node_modules/
+/lib/
+
+/
