@@ -1,6 +1,6 @@
 {
   "name": "strang",
-  "version": "0.1.51",
+  "version": "0.1.52",
   "description": "A lightweight library for  type conversion.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -29,7 +29,10 @@
     "number",
     "char",
     "conversion",
-    "type"
+    "type",
+    "backend",
+    "frontend",
+    "cli"
   ],
   "author": "Emre Surbahan emresurbahan@yahoo.com",
   "license": "MIT",

@@ -8,7 +8,7 @@
 
 #### A lightweight library for type conversion.
 
-#### [Documentation](https://linktodocumentation)
+#### [Documentation](https://github.com/emresr/strang#readme)
 
 ## Usage
 

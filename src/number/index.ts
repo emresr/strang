@@ -41,7 +41,11 @@ function each3(x: number) {
     if (second >= 2) {
       return names[first] + ' Hundred' + ' ' + Tens[second] + ' ' + names[third];
     } else if (second == 0) {
-      return names[first] + ' Hundred' + ' ' + Tens[second] + ' ' + names[third];
+      if (third == 0) {
+        return names[first] + ' Hundred';
+      } else {
+        return names[first] + ' Hundred' + ' ' + Tens[second] + ' ' + names[third];
+      }
     } else {
       return names[first] + ' Hundred' + ' ' + Teens[x % 100];
     }
